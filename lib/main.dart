@@ -13,9 +13,9 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: defaultTheme,
       title: "ZapZap",
-      initialRoute: '/',
+      initialRoute: '/home',
       routes: {
-        '/': (context) => const HomePage(),
+        '/home': (context) => const HomePage(),
       },
     );
   }

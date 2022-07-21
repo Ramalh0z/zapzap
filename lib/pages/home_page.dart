@@ -13,7 +13,6 @@ class HomePage extends StatelessWidget {
   }
 }
 
-
 final AppBar chatAppBar = AppBar(
   toolbarHeight: 70,
   // Leading
