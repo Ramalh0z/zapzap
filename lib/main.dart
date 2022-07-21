@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zapzap/pages/home_page.dart';
+import 'package:zapzap/pages/profile_settings_page.dart';
 import 'package:zapzap/themes/default_theme.dart';
 
 void main() => runApp(const App());
@@ -16,6 +17,7 @@ class App extends StatelessWidget {
       initialRoute: '/home',
       routes: {
         '/home': (context) => const HomePage(),
+        '/settings':(context) => const ProfileSettingsPage(),
       },
     );
   }
